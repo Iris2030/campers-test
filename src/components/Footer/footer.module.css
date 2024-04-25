@@ -1,0 +1,81 @@
+.footer{
+  position: relative;
+  text-align: center;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
+  background-image: linear-gradient(to right, rgba(0, 46, 86, 0.905), rgba(0, 46, 86, 0.905)),
+    url(../../assets/img/full-shot-man-holding-map.jpg);
+
+    background-size: cover;
+    background-position: center;
+}
+
+.footer_list_wrapper{
+  padding-left: 40px;
+  margin-right: 100px;
+}
+
+.footer_list{
+  list-style: none;
+  text-align: left;
+  color: #c8802e;
+  font-size: 16px;
+}
+
+.footer_list_item{
+  cursor: pointer;
+}
+
+.footer_list_item:not(last-child){
+  margin-bottom: 10px;
+}
+
+.footer_list_item:hover{
+  color:  #f3db9e;
+}
+
+.footer_title{
+  text-align: left;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+
+.footer_links_wrapper{
+  margin-top: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer_links{
+  padding: 30px 0 10px;
+  border-top: 1px solid  #c8802e7e;
+}
+
+.footer_link:not(:last-child){
+  margin-right: 20px;
+
+}
+
+.footer_lists_wrapper{
+  display: flex;
+}
+
+.logo{
+  margin-right: 20px;
+}
+
+.footer_copyright{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #fff;
+}
+
+@media screen and (min-width: 780px) {
+
+}

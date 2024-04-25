@@ -1,0 +1,23 @@
+.catalog_wrapper{
+  display: flex;
+  gap: 64px;
+  justify-content: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.Title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.Error {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #fdabab;
+  border: 1px solid #e9020e;
+  color: #e9020e;
+  border-radius: 7px;
+  text-align: center;
+}
