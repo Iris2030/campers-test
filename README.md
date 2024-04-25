@@ -16,11 +16,11 @@ Follow these steps to get the project up and running on your local machine:
 
 1.Clone the Repository:
 
-git clone https://github.com/Iris2030/test-task.git
+git clone https://github.com/Iris2030/campers-test.git
 
 2.Install Dependencies:
 
-cd test_task
+cd campers-test
 npm install
 
 3.Run the Development Server:
