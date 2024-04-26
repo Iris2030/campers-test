@@ -1,6 +1,13 @@
 // ---------------- React and redux tools imports---------------
 import React from 'react';
 
+// ----------------Icons import-----------------------------------
+import camper from '../../assets/icons/camper.svg'
+import facebook from '../../assets/icons/facebook.svg'
+import instagram from '../../assets/icons/instagram.svg'
+import linkedin from '../../assets/icons/linkedin.svg'
+import youtube from '../../assets/icons/youtube.svg'
+
 // ----------------Styles import-----------------------------------
 import style from './footer.module.css';
 
@@ -35,22 +42,22 @@ const Footer = () => {
       <div className={style.footer_links_wrapper}>
         <div className={style.footer_links}>
           <a className={style.footer_link} href="https://www.facebook.com/" target="_blank" rel="noreferrer">
-        		<img className={style.footer_icon} width="24" height="24" alt="Facebook" src="https://freeway-camper.com/assets/media/images/icons-and-logos/Facebook.svg"/>
-        	</a>
+            <img className={style.footer_icon} src={facebook} alt="close icon" />
+          </a>
           <a className={style.footer_link} href="https://www.instagram.com/" target="_blank" rel="noreferrer">
-			  		<img className={style.footer_icon} width="24" height="24" alt="Instagram" src="https://freeway-camper.com/assets/media/images/icons-and-logos/Instagram.svg"/>
-			  	</a>
-          <a  className={style.footer_link} href="https://www.youtube.com/" target="_blank" rel="noreferrer">
-			  		<img className={style.footer_icon} width="24" height="24" alt="Youtube" src="https://freeway-camper.com/assets/media/images/icons-and-logos/Youtube.svg"/>
-			  	</a>
-			  		<a className={style.footer_link} href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
-			  			<img className={style.footer_icon} width="24" height="24" alt="LinkedIn" src="https://freeway-camper.com/assets/media/images/icons-and-logos/LinkedIn_Logo.svg"/>
-			  	</a>
+            <img className={style.footer_icon} src={instagram} alt="close icon" />
+          </a>
+          <a className={style.footer_link} href="https://www.youtube.com/" target="_blank" rel="noreferrer">
+            <img className={style.footer_icon} src={youtube} alt="close icon" />
+          </a>
+          <a className={style.footer_link} href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+            <img className={style.footer_icon} src={linkedin} alt="close icon" />
+          </a>
         </div>
       </div>
 
       <div className={style.footer_copyright}>
-        <img className={style.logo} alt='logo' width="60" height="40" src="https://freeway-camper.com/assets/media/images/icons-and-logos/Camper_logo.webp"/>
+        <img className={style.logo} src={camper} alt="close icon" />
         <p>© 2024 FreewayCamper</p>
       </div>
     </div>

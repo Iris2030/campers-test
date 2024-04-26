@@ -5,6 +5,9 @@ import { useDispatch, useSelector } from 'react-redux';
 // ----------------Components imports-----------------------------------
 import NavList from '../../components/NavList/NavList';
 
+// ----------------Icons import-----------------------------------
+import camper from '../../assets/icons/camper.svg'
+
 // ----------------Styles import-----------------------------------
 import style from "./hero.module.css";
 
@@ -14,7 +17,7 @@ const Hero = () => {
 
  <div className={style.hero}>
   <NavList />
-  <img className={style.logo} alt='logo' width="97" height="80" src="https://freeway-camper.com/assets/media/images/icons-and-logos/Camper_logo.webp"/>
+  <img className={style.logo} alt='logo' width="200" height="200" src="https://www.wildearthcampers.com/wp-content/uploads/logo.svg"/>
   <h1 className={style.hero_text} >Buy your dream campers & RVs</h1>
 </div> 
   );

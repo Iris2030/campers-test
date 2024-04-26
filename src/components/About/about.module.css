@@ -40,3 +40,21 @@ h2{
     max-height: 700px;
   }
 }
+
+.about_text{
+    color: #475467;
+    line-height: 24px;
+}
+
+.about_text:first-child{
+  margin-top: 30px;
+}
+
+.about_text:last-child{
+  margin-bottom: 30px;
+}
+
+.bottom_gap{
+  margin-bottom: 20px;
+  line-height: 24px;
+}

@@ -66,6 +66,8 @@
 }
 
 .logo{
+  width: 60px;
+  height: 60px;
   margin-right: 20px;
 }
 
@@ -74,6 +76,11 @@
   align-items: center;
   display: flex;
   color: #fff;
+}
+
+.footer_icon{
+  width: 30px;
+  height: 30px;
 }
 
 @media screen and (min-width: 780px) {
